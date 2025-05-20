@@ -7,6 +7,9 @@ import StatesinCbc from "./all-topics/02_states/StatesinCbc";
 import Parent1 from "./all-topics/03_props/Parent1";
 import Parent2 from "./all-topics/03_props/Parent2";
 import Parent3 from "./all-topics/03_props/Parent3";
+import Parent4 from "./all-topics/03_props/Parent4";
+import Parent5 from "./all-topics/03_props/Parent5";
+import DrillParent1 from "./all-topics/04_propsDrilling/DrillParent1";
 const App=()=>{
     return (
         <div>
@@ -20,7 +23,10 @@ const App=()=>{
           <StatesinCbc/> */}
           {/* <Parent1/> */}
           {/* <Parent2/> */}
-          <Parent3/>
+          {/* <Parent3/> */}
+          {/* <Parent4/> */}
+          {/* <Parent5/> */}
+          <DrillParent1/>
           
         </div>
     );
