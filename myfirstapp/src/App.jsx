@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Fbc from "./all-topics/01_typesofComponents/Fbc";
 import Cbc from "./all-topics/01_typesofComponents/Cbc";
@@ -18,15 +18,23 @@ import ParentComponent from "./all-topics/07_context2/ParentComponent";
 import InlineCSS from "./all-topics/08_ReactCss/InlineCSS";
 import Card from "./all-topics/08_ReactCss/Card";
 import ControlledForms1 from "./all-topics/09_Controlledforms/ControlledForms1";
+// import FetchApi2 from "./all-topics/FetchApi/FetchApi2";
+import Reducer from "./all-topics/13_useReducer/Reducer";
 
 const App=()=>{
-    // console.log("First")
-    let [state,setState]=useState(0)
+    // // console.log("First")
+    // let [state,setState]=useState(0)
     
 
-    function updateState(){
-        setState(state+1)
-    }
+    // function updateState(){
+    //     setState(state+1)
+    // }
+  //   const [toggle, setToggle] = useState(false);
+
+  // const toggleHandle = () => {
+  //   setToggle(prev => !prev);
+  // };
+
     return (
         <div>
             {/* <h1>My Component -{state}</h1>
@@ -53,8 +61,12 @@ const App=()=>{
           </Context2> */}
           {/* <InlineCSS/> */}
           {/* <Card/> */}
-          <ControlledForms1/>
-          
+          {/* <ControlledForms1/> */}
+          {/* <FetchApi2/> */}
+          {/* <button onClick={toggleHandle} className="bg-red-500 mb-3">Toggle</button>
+          {toggle ? <FetchApi2/> : <h1>Not</h1>} */}
+          <Reducer/>
+
         </div>
     );
 };
